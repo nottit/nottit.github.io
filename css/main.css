@@ -1,0 +1,448 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+        .fixed{
+            position: fixed;
+            width:100%;
+            z-index: 9999;
+        }
+        
+        table a, h1 a, h2 a, a h2{
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .intro{
+         width:100%;   
+        }
+        
+        .about{
+         margin-top: 50px;
+            text-align: left;
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        .subheader{
+            position: absolute;
+            left: 0;
+            top: 160px;
+            padding: 0 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        table.events{
+            margin: 30px auto;   
+        }
+        table.events tr td:first-child{
+            text-align: right;  
+            font-size: 2.3em;
+            padding-right: 10px;
+            font-weight: 600;
+        }
+
+        table.events tr td:last-child{
+            text-align: left;   
+            font-size: 2.1em;
+        }
+
+
+        h1{
+            font-family: 'Lobster', cursive;
+            font-size: 10em;
+            width:401px;
+            margin: 0 auto;
+
+        }
+
+        h2{
+            font-family: 'Lobster', cursive;
+            font-size: 6em;
+            margin: 0 auto;
+
+        }
+        .nottit{
+            background-color: #fb3;  
+            width:100%;
+        }
+        
+        .nottit .unconfirmed{
+             color: #e2a428;  
+        }
+        
+        
+        .nottprog{
+            background-color: #008cbf;   
+        }
+        
+        .secwed{
+            background-color: #ea3125;    
+        }
+        .secwed .title {
+   text-indent: -9999px;
+   width: 70%;
+            height:20%;
+            min-height: 340px;
+               background-size: 100% 100%; 
+    margin-left: 15%;
+            margin-right: 15%;
+   height: 100px;
+   background: url( logos/body-logo.png)  no-repeat;  
+}
+        
+        .about p{
+        
+        }
+        
+        .technotts .about p,.secwed .about p{
+            display: inline;
+            background-color: #000;
+            color: #FFF;
+            padding: 2px 8px 2px 10px;
+            line-height: 1.7em;
+        }
+        
+        
+        .intro{
+            position: absolute;
+            top:300px;
+        }
+
+        .technotts{
+            background-color: #cc0066;   
+        }
+        
+          .technotts .title {
+   text-indent: -9999px;
+   width: 70%;
+            height:20%;
+            min-height: 340px;
+               background-size: 100% 100%; 
+    margin-left: 15%;
+            margin-right: 15%;
+   height: 100px;
+   background: url( logos/technott.png)  no-repeat;  
+}
+        
+        .technotts h2{
+         color: #EEE;   
+        }
+
+        .dotnetnotts{
+            background-color: #1abc9c;   
+        }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* particleground demo */
+
+* { 
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.intro {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 0 20px;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  font-size: 85px;
+  font-weight: 500;
+}
+p {
+  margin: 0 0 30px 0;
+  font-size: 24px;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+       -o-transition: all 0.4s;
+          transition: all 0.4s;
+}
+.btn:hover {
+  color: #005544;
+  border-color: #005544;
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+  h1::after {
+    height: 8px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .intro {
+    padding: 0 10px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h1::after {
+    height: 6px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 28px;
+  }
+  h1::after {
+    height: 4px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

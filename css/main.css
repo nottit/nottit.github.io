@@ -139,15 +139,6 @@ textarea {
             background-color: #ea3125;    
         }
         .secwed .title {
-   text-indent: -9999px;
-   width: 70%;
-            height:20%;
-            min-height: 340px;
-               background-size: 100% 100%; 
-    margin-left: 15%;
-            margin-right: 15%;
-   height: 100px;
-   background: url( logos/body-logo.png)  no-repeat;  
 }
         
         .about p{
@@ -173,15 +164,7 @@ textarea {
         }
         
           .technotts .title {
-   text-indent: -9999px;
-   width: 70%;
-            height:20%;
-            min-height: 340px;
-               background-size: 100% 100%; 
-    margin-left: 15%;
-            margin-right: 15%;
-   height: 100px;
-   background: url( logos/technott.png)  no-repeat;  
+
 }
         
         .technotts h2{
